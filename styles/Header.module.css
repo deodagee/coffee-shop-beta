@@ -1,0 +1,82 @@
+.whole {
+  justify-content: center;
+  align-items:center;
+}
+
+
+
+  .firsttitle { 
+    color: #e2e2e2; 
+    transition: color 1s; 
+  }
+
+  .firsttitle:hover { 
+    transition: color 0.7s; 
+    color: rgb(255, 255, 255);
+  }
+
+
+  .buttons { 
+    justify-content: center;
+    align-items: center;
+    display: grid;
+  }
+
+ 
+  .goodsessionbtn,
+  .badsessionbtn {
+    align-items: center;
+    justify-content: center;
+    background-color: #cfcfcf86;
+    margin-top: 80px;
+    padding: 1vw;
+    white-space:nowrap;
+    display:flex;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-size: 17px;
+    font-weight: 900;
+    color: #1c1e1f;
+    transition: border-color 1.8s, background-color 0.9s, color 1s;
+  }
+  
+
+.goodsessionbtn:hover, .badsessionbtn:hover { 
+  background-color: rgba(229, 231, 235, 0.15);
+  border-color: #ffffff;
+  color: #f9fafb;
+}
+
+.buttons :nth-child(2),
+.buttons :nth-child(2) {
+  margin-top: 20px;
+
+  align-items: center;
+  justify-content: center;
+  background-color: #dfdfdfb3;
+  padding: 1vw;
+  white-space:nowrap;
+  display:flex;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 17px;
+  font-weight: 900;
+  color: #f9fafb;
+  transition: border-color 1.8s, background-color 0.9s, color 1s;
+}
+
+.buttons :nth-child(2):hover,
+.buttons :nth-child(2):hover {
+  background-color: rgba(229, 231, 235, 0.15);
+  border-color: #a1a1aa;
+  color: #b5ff20;
+
+}
+
+
+
+
+
+
+
+ 

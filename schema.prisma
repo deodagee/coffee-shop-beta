@@ -1,0 +1,38 @@
+// schema.prisma
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL") // Replace with your database connection URL
+}
+
+model product_table {
+  product_id Int @id @unique @default(autoincrement())
+  product_name String @unique
+  description String
+  price Decimal
+}
+
+model image_table { 
+    imageid Int @id @unique
+    product_id Int @unique
+    image_url String 
+    
+}
+
+model inventory_table { 
+    product_name String @unique
+    product_id Int @unique
+    quantity Int
+
+
+}
+
+
+model users_table {
+  userid   Int @id @unique @default(autoincrement())
+  username String   @unique
+  email    String   @unique
+  password String
+}
+
+

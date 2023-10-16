@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+  .navbaritem { 
+    white-space: inherit;
+  }
+}
+
+@media screen and (min-width:1024px) and (max-width: 5000px) {
+  .navbaritem {
+    white-space: nowrap;
+  }
+}
+
+.navbarparent { 
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+
+.navbaritem { 
+  display: inline-flex;
+  white-space: nowrap;
+}
+
+
+

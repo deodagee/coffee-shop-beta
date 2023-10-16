@@ -26,27 +26,6 @@ export default function Header({ scrollHandler }) {
                     <span className="">Energy </span>
                     <span className="">Productivity</span>
                   </h1>
-
-
-
-                  <button className={styles.badsessionbtn} type='submit'
-                    onClick={scrollHandler}
-                  >
-                                      <Link href={"/menu"}>
-
-                    Shop Different Beans
-                    </Link>
-
-                  </button>
-                  <button className={styles.badsessionbtn} type='submit'
-                    onClick={scrollHandler}
-                  >
-                                                          <Link href={"/login"}>
-
-                    Exclusive Members Area
-                    </Link>
-
-                  </button>
                   </div>
       </div>
     )

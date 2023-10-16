@@ -17,11 +17,11 @@ function Navbar () {
 
 
             <ol className={styles.navbarparent}>
-                <li className={styles.navbaritem}><Link href="/" className= "transition duration-500 relative text-zinc-50  hover:text-zinc-50 rounded hover:bg-[#ffffff56] pt-1 pb-1 pl-3 pr-3 lg:ml-20 lg:mr-20 " >Home</Link></li>
-                <li className={styles.navbaritem}><Link href="/menu"className= "transition duration-500 relative text-zinc-50 hover:text-zinc-50 rounded hover:bg-[#ffffff56] pt-1 pb-1 pl-3 pr-3 lg:ml-20 lg:mr-20 " >Menu</Link></li>
-                <li className={styles.navbaritem}><Link href="/takeout" className= "transition duration-500 relative text-zinc-50 hover:text-zinc-50 rounded hover:bg-[#ffffff56] pt-1 pb-1 pl-3 pr-3 lg:ml-20 lg:mr-20 " >Take Out</Link></li>
-                <li className= "transition duration-500 relative text-zinc-50 hover:text-zinc-50 rounded hover:bg-[#ffffff56] pt-1 pb-1 pl-3 pr-3 lg:ml-20 lg:mr-20 ">
-                <button className={styles.navbaritem}><Link href="/login"  >Login</Link></button></li>
+                <li className={styles.navbaritem}><Link href="/" className={styles.navbar_text} >Home</Link></li>
+                <li className={styles.navbaritem}><Link href="/menu" className={styles.navbar_text} >Menu</Link></li>
+                <li className={styles.navbaritem}><Link href="/takeout" className={styles.navbar_text} >Take Out</Link></li>
+                <li className={styles.navbaritem}>
+                <button><Link href="/login" className={styles.navbar_text}>Login</Link></button></li>
             </ol>
         </div>
 

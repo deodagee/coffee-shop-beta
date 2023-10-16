@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import img from '../public/hero.jpg';
 import styles from '../styles/menu.module.css';
 import Header from '../components/Header';
 import { useSession } from 'next-auth/react';

@@ -96,7 +96,7 @@ if (!session) {
       <div className={styles.backdrop_blur}>
 
       <div className=" relative px-4 py-6 sm:px-6 sm:py-4 lg:py-32 lg:px-8">
-      <div className="pb-[100px]">
+      <div >
         <Navbar></Navbar>
       </div>
 

@@ -57,10 +57,10 @@ const callbackUrl = "http://127.0.0.1:3000";
   return (
     
     <>
+          <div className={styles.formparent}>
       <div className='blur'>
         <Header scrollHandler={scrollHandler} />
       </div>
-      <div className={styles.formparent}>
         <form className="flex flex-col items-center justify-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 bg-white p-6 rounded-md shadow-xl" onSubmit={handleLogin}>
           <h2 className="text-2xl font-bold mb-4">Login</h2>
 

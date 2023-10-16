@@ -1,6 +1,9 @@
 .whole {
+  width: 100vw;
+  display: flex;
   justify-content: center;
   align-items:center;
+  overflow-x:hidden ;
 }
 
 
@@ -28,7 +31,6 @@
     align-items: center;
     justify-content: center;
     background-color: #cfcfcf86;
-    margin-top: 80px;
     padding: 1vw;
     white-space:nowrap;
     display:flex;
@@ -49,12 +51,10 @@
 
 .buttons :nth-child(2),
 .buttons :nth-child(2) {
-  margin-top: 20px;
 
   align-items: center;
   justify-content: center;
   background-color: #dfdfdfb3;
-  padding: 1vw;
   white-space:nowrap;
   display:flex;
   border-radius: 5px;

@@ -13,7 +13,7 @@ function Navbar () {
     if (!session) {
     return ( 
 
-        <div className="lg:mt-[-100px] md:mt-[-5px] sm:mt-[-10px]" >
+        <div>
 
 
             <ol className={styles.navbarparent}>
@@ -32,7 +32,7 @@ if (session) {
 
     return ( 
 
-        <div className="lg:mt-[-100px] md:mt-[-5px] sm:mt-[-10px]" >
+        <div>
 
             <ol className={styles.navbarparent}>
                 <li className={styles.navbaritem}><Link href="/" className= "transition duration-500 relative text-zinc-50  hover:text-zinc-50 rounded hover:bg-[#ffffff56] pt-1 pb-1 pl-3 pr-3 lg:ml-20 lg:mr-20 " >Home</Link></li>

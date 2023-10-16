@@ -61,28 +61,28 @@
     border-color: rgb(230, 230, 230);
     width: 90px;
     border-radius: 45px;
-    
+
 }
 
 .menu_items_wrapper {
-    background-image: url("/orangeredcircle.png");
-    background-size: 200px;
+    background-image: url("/logoshell3.png");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-        display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
 }
 
-.menu_pick_and_add { 
+.menu_pick_and_add {
     margin: 10px;
     margin-bottom: 20px;
     color: rgb(67, 0, 0);
     font-size: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
-    
+
 }
 
 .menu_items_list {
@@ -96,7 +96,7 @@
     margin-bottom: 60px;
 }
 
-.item_product { 
+.item_product {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,9 +137,9 @@
 }
 
 
-.item_list_item p { 
+.item_list_item p {
     font-size: 10px;
-    color: rgb(255, 255, 255);
+    color: rgb(38, 38, 38);
     font-weight: 700;
     font-family: sans-serif;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -152,15 +152,16 @@
 @media screen and (min-width:200px) and (max-width:300px) and (orientation:portrait) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
+
 @media screen and (min-width:200px) and (max-width:300px) and (orientation:landscape) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -168,30 +169,32 @@
 @media screen and (min-width:300px) and (max-width:400px) and (orientation:portrait) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
+
 @media screen and (min-width:300px) and (max-width:400px) and (orientation:landscape) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (min-width:400px) and (max-width:500px) and (orientation:portrait) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
+
 @media screen and (min-width:400px) and (max-width:500px) and (orientation:landscape) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -199,60 +202,64 @@
 @media screen and (min-width:500px) and (max-width:600px) and (orientation:portrait) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
+
 @media screen and (min-width:500px) and (max-width:600px) and (orientation:landscape) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (min-width:600px) and (max-width:700px) and (orientation:portrait) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
+
 @media screen and (min-width:600px) and (max-width:700px) and (orientation:landscape) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media screen and (min-width:700px) and (max-width:800px) and (orientation:portrait) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
+
 @media screen and (min-width:700px) and (max-width:800px) and (orientation:landscape) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media screen and (min-width:800px) and (max-width:900px) and (orientation:portrait) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
 }
+
 @media screen and (min-width:800px) and (max-width:900px) and (orientation:landscape) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
@@ -260,15 +267,16 @@
 @media screen and (min-width:900px) and (max-width:1000px) and (orientation:portrait) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
 }
+
 @media screen and (min-width:900px) and (max-width:1000px) and (orientation:landscape) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
@@ -277,15 +285,16 @@
 @media screen and (min-width:1000px) and (max-width:1100px) and (orientation:portrait) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
     }
 }
+
 @media screen and (min-width:1000px) and (max-width:1100px) and (orientation:landscape) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
     }
 }
 
@@ -293,20 +302,15 @@
 @media screen and (min-width:1100px) and (max-width:1200px) and (orientation:portrait) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
     }
 }
+
 @media screen and (min-width:1100px) and (max-width:1200px) and (orientation:landscape) {
 
     .menu_items_list {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
     }
 }
-
-
-
-
-
-

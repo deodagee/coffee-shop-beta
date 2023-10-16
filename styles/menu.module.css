@@ -96,7 +96,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width:90px;
+    height: 175px;
+    width: 95px;
     padding: 5px;
     border-radius: 0.65rem;
     transform: scale(0.6);

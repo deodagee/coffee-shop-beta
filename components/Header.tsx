@@ -3,6 +3,7 @@ import img from '../public/hero.jpg';
 import styles from '../styles/Header.module.css';
 import Navbar from './Navbar';
 import { useSession } from 'next-auth/react';
+import Link from 'next/link';
 
 export default function Header({ scrollHandler }) {
   const { data: session } = useSession();
@@ -26,15 +27,25 @@ export default function Header({ scrollHandler }) {
                     <span className="">Productivity</span>
                   </h1>
 
+
+
                   <button className={styles.badsessionbtn} type='submit'
                     onClick={scrollHandler}
                   >
+                                      <Link href={"/menu"}>
+
                     Shop Different Beans
+                    </Link>
+
                   </button>
                   <button className={styles.badsessionbtn} type='submit'
                     onClick={scrollHandler}
                   >
+                                                          <Link href={"/login"}>
+
                     Exclusive Members Area
+                    </Link>
+
                   </button>
                   </div>
       </div>
@@ -70,15 +81,24 @@ export default function Header({ scrollHandler }) {
 
 
                     <div className={styles.buttons}>
+
+                    <button className={styles.goodsessionbtn} type='submit'
+                    onClick={scrollHandler}
+                  >
+                                      <Link href={"/menu"}>
+
+                    Shop Different Beans
+                    </Link>
+
+                  </button>
                       <button className={styles.goodsessionbtn} type='submit'
                         onClick={scrollHandler}
                       >
-                        Shop Different Beans
-                      </button>
-                      <button className={styles.goodsessionbtn} type='submit'
-                        onClick={scrollHandler}
-                      >
+                                                              <Link href={"/login"}>
+
                         Exclusive Members Area
+                        </Link>
+
                       </button>
                     </div>
       </div>

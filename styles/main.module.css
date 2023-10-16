@@ -18,8 +18,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 60px;
     white-space: nowrap;
+    gap: 30px;
 
 }
 
@@ -32,9 +32,6 @@
     max-height: 50px;
     height: 50px;
     width: 200px;
-    max-width: 200px;
-    min-width: 100px;
-    gap: 30px;
     margin-top: 50px;
     background-color: rgb(87, 25, 0);
     border-radius: 45px;
@@ -61,4 +58,63 @@ color: white;
     font-family: sans-serif;
     font-weight: 600;
 
+}
+
+
+@media screen and (min-width:200px)  and (max-width:300px)and (orientation:portrait){
+.tabs_wrapper{ 
+    gap: 10px;
+}
+    .tabs { 
+        width: 100px;
+    }
+    
+}
+@media screen and (min-width:200px)  and (max-width:300px)and (orientation:landscape){
+    .tabs_wrapper{ 
+        gap: 10px;
+    }
+        .tabs { 
+            width: 100px;
+        }
+    
+}
+
+
+@media screen and (min-width:300px)  and (max-width:400px)and (orientation:portrait){
+    .tabs_wrapper{ 
+        gap: 20px;
+    }
+        .tabs { 
+            width: 150px;
+        }
+    
+}
+@media screen and (min-width:300px)  and (max-width:400px)and (orientation:landscape){
+
+    .tabs_wrapper{ 
+        gap: 20px;
+    }
+        .tabs { 
+            width: 150px;
+        }
+}
+
+
+@media screen and (min-width:400px)  and (max-width:500px)and (orientation:portrait){
+    .tabs_wrapper{ 
+        gap: 20px;
+    }
+        .tabs { 
+            width: 150px;
+        }
+    
+}
+@media screen and (min-width:400px)  and (max-width:500px)and (orientation:landscape){
+    .tabs_wrapper{ 
+        gap: 20px;
+    }
+        .tabs { 
+            width: 150px;
+        }
 }

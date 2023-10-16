@@ -1,4 +1,5 @@
 .navbarparent { 
+  z-index: 100;
   position: fixed;
     list-style: none;
     display: flex;

@@ -91,7 +91,7 @@ export default function TakeOut({ scrollHandler }) {
                                 
                                 width={100}
                                 height={100}
-                                src={"/frap3.png"}>
+                                src={"/pasta1.png"}>
                                 </Image>
                                 <p>Product</p>
                                 </Link>
@@ -102,7 +102,7 @@ export default function TakeOut({ scrollHandler }) {
                                 className={styles.item_product}
                                 width={100}
                                 height={100}
-                                src={"/frap2.png"}>
+                                src={"/burger1.png"}>
                                 </Image>
                                 <p>Product</p>
                                 </Link>
@@ -113,7 +113,7 @@ export default function TakeOut({ scrollHandler }) {
                                 className={styles.item_product}
                                 width={100}
                                 height={100}
-                                src={"/frap3.png"}>
+                                src={"/pasta1.png"}>
                                 </Image>
                                 <p>Product</p>
                                 </Link>
@@ -124,7 +124,7 @@ export default function TakeOut({ scrollHandler }) {
                                 className={styles.item_product}
                                 width={100}
                                 height={100}
-                                src={"/frap1.png"}>
+                                src={"/burger1.png"}>
                                 </Image>
                                 <p>Product</p>
                                 </Link>
@@ -135,7 +135,7 @@ export default function TakeOut({ scrollHandler }) {
                                 className={styles.item_product}
                                 width={100}
                                 height={100}
-                                src={"/frap2.png"}>
+                                src={"/pasta1.png"}>
                                 </Image>
                                 <p>Product</p>
                                 </Link>
@@ -146,128 +146,7 @@ export default function TakeOut({ scrollHandler }) {
                                 className={styles.item_product}
                                 width={100}
                                 height={100}
-                                src={"/frap3.png"}>
-                                </Image>
-                                <p>Product</p>
-                                </Link>
-                            </li>
-                            <li className={styles.item_list_item}>
-                                <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/frap1.png"}>
-                                </Image>
-                                <p>Product</p>
-                                </Link>
-                            </li>
-                            <li className={styles.item_list_item}>
-                                <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/frap2.png"}>
-                                </Image>
-                                <p>Product</p>
-                                </Link>
-                            </li>
-                            <li className={styles.item_list_item}>
-                                <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/frap3.png"}>
-                                </Image>
-                                <p>Product</p>
-                                </Link>
-                            </li>
-                            <li className={styles.item_list_item}>
-                                <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/frap1.png"}>
-                                </Image>
-                                <p>Product</p>
-                                </Link>
-                            </li>
-                            <li className={styles.item_list_item}>
-                                <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/frap2.png"}>
-                                </Image>
-                                <p>Product</p>
-                                </Link>
-                            </li>
-                            <li className={styles.item_list_item}>
-                                <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/frap3.png"}>
-                                </Image>
-                                <p>Product</p>
-                                </Link>
-                            </li>
-                            <li className={styles.item_list_item}>
-                                <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/frap1.png"}>
-                                </Image>
-                                <p>Product</p>
-                                </Link>
-                            </li>
-                            <li className={styles.item_list_item}>
-                                <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/frap2.png"}>
-                                </Image>
-                                <p>Product</p>
-                                </Link>
-                            </li>
-                            <li className={styles.item_list_item}>
-                                <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/frap3.png"}>
-                                </Image>
-                                <p>Product</p>
-                                </Link>
-                            </li>
-                            <li className={styles.item_list_item}>
-                                <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/frap1.png"}>
-                                </Image>
-                                <p>Product</p>
-                                </Link>
-                            </li>
-                            <li className={styles.item_list_item}>
-                                <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/frap2.png"}>
+                                src={"/burger1.png"}>
                                 </Image>
                                 <p>Product</p>
                                 </Link>

@@ -113,47 +113,57 @@
     transform: scale(0.6);
 }
 
-.item_list_item {
+.item_list_item { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: whitesmoke;
+
+}
+
+.item_list_item:nth-child(2), .item_list_item:nth-child(4), .item_list_item:nth-child(6) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    background-image: url("/burger1.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 60%;
+    transition: 0.4s;
+}
+.item_list_item:nth-child(1), .item_list_item:nth-child(3), .item_list_item:nth-child(5) {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 160px;
-    height: 210px;
+    height: 160px;
+    border-radius: 60%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Added a shadow for better visibility */
     border: 2px solid rgb(255, 255, 255);
-    /* Border style */
-    border-radius: 0.65rem;
     background-color: rgb(255, 255, 255);
-    background-image: url("/beanswhite.png");
+    background-image: url("/pasta1.png");
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.4s;
 }
-
-
-.item_list_item:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.266);
-    transition: 0.4s;
-    transform: scale(1.01);
-    background-size: 100px;
-
-
+.item_list_item:nth-child(1):hover, .item_list_item:nth-child(3):hover, .item_list_item:nth-child(5):hover,.item_list_item:nth-child(2):hover, .item_list_item:nth-child(4):hover, .item_list_item:nth-child(6):hover {
+transform: scale(1.05);
+transition: 0.4s;
 }
 
 
-.item_list_item p {
-    font-size: 10px;
-    color: rgb(38, 38, 38);
-    font-weight: 700;
-    font-family: sans-serif;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
 
 @media screen and (min-width:200px) and (max-width:300px) and (orientation:portrait) {
 

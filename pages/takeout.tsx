@@ -84,75 +84,42 @@ export default function TakeOut({ scrollHandler }) {
                     <div className={styles.menu_pick_and_add}>Pick And Add To Cart</div>
                     <div className={styles.menu_items_wrapper}>
                         <ol className={styles.menu_items_list} >
-
                         <li className={styles.item_list_item}>
+                            <span>
                                 <Link href={"/product/item"}>
-                                <Image className={styles.item_product}alt='product_item'
-                                
-                                width={100}
-                                height={100}
-                                src={"/pasta1.png"}>
-                                </Image>
-                                <p>Product</p>
                                 </Link>
+                                </span>
+                                <span>
+                                <p>Product</p>
+                                </span>
                             </li>
                             <li className={styles.item_list_item}>
                                 <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/burger1.png"}>
-                                </Image>
-                                <p>Product</p>
                                 </Link>
-                            </li>
-                            <li className={styles.item_list_item}>
-                                <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/pasta1.png"}>
-                                </Image>
                                 <p>Product</p>
-                                </Link>
-                            </li>
-                            <li className={styles.item_list_item}>
-                                <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/burger1.png"}>
-                                </Image>
-                                <p>Product</p>
-                                </Link>
-                            </li>
-                            <li className={styles.item_list_item}>
-                                <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/pasta1.png"}>
-                                </Image>
-                                <p>Product</p>
-                                </Link>
-                            </li>
-                            <li className={styles.item_list_item}>
-                                <Link href={"/product/item"}>
-                                <Image alt='product_item'
-                                className={styles.item_product}
-                                width={100}
-                                height={100}
-                                src={"/burger1.png"}>
-                                </Image>
-                                <p>Product</p>
-                                </Link>
-                            </li>
 
-
+                            </li>
+                            
+                            <li className={styles.item_list_item}>
+                                <Link href={"/product/item"}>
+                                <p>Product</p>
+                                </Link>
+                            </li>
+                            <li className={styles.item_list_item}>
+                                <Link href={"/product/item"}>
+                                <p>Product</p>
+                                </Link>
+                            </li>
+                            <li className={styles.item_list_item}>
+                                <Link href={"/product/item"}>
+                                <p>Product</p>
+                                </Link>
+                            </li>
+                            <li className={styles.item_list_item}>
+                                <Link href={"/product/item"}>
+                                <p>Product</p>
+                                </Link>
+                            </li>
                         </ol>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import Header from '../components/Header';
 import styles from "../styles/login.module.css";
 import Link from 'next/link';
@@ -9,6 +9,13 @@ import axios from 'axios';
 
 
 function Signup() {
+  useEffect(() => {
+    document.body.style.overflowX = 'hidden';
+
+    return () => {
+        document.body.style.overflowX = '';
+    };
+}, []);
   const coffeeRef = useRef<HTMLParagraphElement>();
 
   const router = useRouter();

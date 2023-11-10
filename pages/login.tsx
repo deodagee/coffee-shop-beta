@@ -1,4 +1,4 @@
-import { useRef, useState} from 'react';
+import { useRef, useState, useEffect} from 'react';
 import Header from '../components/Header';
 import styles from "../styles/login.module.css";
 import Link from 'next/link';
@@ -7,6 +7,13 @@ import { useRouter } from 'next/router';
 import NextAuth from 'next-auth/next';
 
 function Login() {
+      useEffect(() => {
+        document.body.style.overflowX = 'hidden';
+
+        return () => {
+            document.body.style.overflowX = '';
+        };
+    }, []);
   
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');

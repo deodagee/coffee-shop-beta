@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useEffect } from 'react';
 import Header from '../components/Header';
 import { useSession } from 'next-auth/react';
 import styles from "../styles/main.module.css";
@@ -6,6 +6,13 @@ import Link from 'next/link';
 
 
 export default function Home() {
+  useEffect(() => {
+    document.body.style.overflowX = 'hidden';
+
+    return () => {
+        document.body.style.overflowX = '';
+    };
+}, []);
 
   const scrollHandler = (e) => {
     e.preventDefault();

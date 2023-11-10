@@ -2,9 +2,18 @@ import Image from 'next/image';
 import img from '../public/logowhitesmall.png';
 import styles from '../styles/thankYouPage.module.css'; 
 import Link from 'next/link';
+import { useRef, useEffect } from 'react';
+
 
 
 function ThankYouPage() {
+  useEffect(() => {
+    document.body.style.overflowX = 'hidden';
+
+    return () => {
+        document.body.style.overflowX = '';
+    };
+}, []);
 
   return (
     <div className={styles.parent}>

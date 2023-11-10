@@ -2,9 +2,17 @@ import Image from 'next/image';
 import styles from '../styles/takeout.module.css';
 import Header from '../components/Header';
 import { useSession } from 'next-auth/react';
+import { useEffect } from 'react';
 import Link from 'next/link'; 
 
 export default function TakeOut({ scrollHandler }) {
+    useEffect(() => {
+        document.body.style.overflowX = 'hidden';
+
+        return () => {
+            document.body.style.overflowX = '';
+        };
+    }, []);
     const { data: session } = useSession();
 
     if (session) {

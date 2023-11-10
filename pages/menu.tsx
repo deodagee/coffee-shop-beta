@@ -51,7 +51,7 @@ function Menu() {
                     >
                         <Link href={"/menu"}>
 
-                            Shop Different Beans
+                            Shop Different Drinks
                         </Link>
 
                     </button>

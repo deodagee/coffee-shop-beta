@@ -41,7 +41,7 @@ export default function TakeOut({ scrollHandler }) {
                     >
                         <Link href={"/menu"}>
 
-                            Shop Different Beans
+                            Shop Different Drinks
                         </Link>
 
                     </button>
